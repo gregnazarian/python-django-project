@@ -12,7 +12,7 @@ from braces.views import SelectRelatedMixin
 from . import models
 from . import forms
 
-from django.contrib.auth import get_user_model()
+from django.contrib.auth import get_user_model
 User = get_user_model()
 
 
